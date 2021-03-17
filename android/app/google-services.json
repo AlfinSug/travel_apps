@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468761677336",
+    "project_id": "travel-apps-dd868",
+    "storage_bucket": "travel-apps-dd868.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468761677336:android:8d68a20573d7dbd408fd6d",
+        "android_client_info": {
+          "package_name": "com.kelompok2.travel_apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468761677336-566mtpspjq534g894l8fombvik59bfp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY6s0DqeqF0HqYwJqo6tnqxJVs-PTJuWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468761677336-566mtpspjq534g894l8fombvik59bfp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
