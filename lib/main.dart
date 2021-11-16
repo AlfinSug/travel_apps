@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:travel_apps/api/CRUDModel.dart';
-import 'package:travel_apps/locater.dart';
-import 'package:travel_apps/screen/router_page.dart';
+// import 'package:travel_apps/locater.dart';
+// import 'router_page.dart';
+import 'locater.dart';
+import 'package:travel_apps/router_page.dart';
 
 void main() {
   setUpLocator();
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
           accentColor: Color(0xFFD8ECF1),
           scaffoldBackgroundColor: Color(0xFFF3F5F7),
         ),
-        onGenerateRoute: Router.generateRoute,
+        onGenerateRoute: Routers.generateRouter,
         debugShowCheckedModeBanner: false,
       ),
     );
